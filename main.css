@@ -1,0 +1,342 @@
+.toplevel_page_ai-chatbot-easy-integration-log #wpbody-content{
+    width: 75%;
+    }
+    .settings_page_ai-chatbot-easy-integration{
+        width: 85%;
+        max-width: 1500px;
+    }
+    .settings_page_ai-chatbot-easy-integration th{
+        width: 50px;
+        display:none;
+    }
+
+.ai_chatbot_easy_integration_logo{
+width: 100%;
+
+background:#181F3C;
+z-index: 2000000000002;
+border: 1px solid #181F3C;
+border-radius: 10px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+.ai_chatbot_easy_integration_logo_btns{
+    float:right;
+    margin: 20px;
+
+}
+#ai-chatbot-easy-integration-searchform{
+    margin: 20px;
+    text-align:center;
+    font-weight:bold;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.ai-chatbot-easy-integration-settings-section{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px;
+display:block;
+max-width: 650px;
+}
+.ai-chatbot-easy-integration-fields{
+    display:none;
+    background-color: #fff;
+    padding: 20px;
+margin-top:-5px;
+margin-bottom: 10px;
+max-width: 628px;
+border: 1px dotted #2271b1;
+border-radius: 0px;
+}
+.ai_chatbot_easy_integration_logo img{
+  width: 300px;
+  height: 150px;
+  border: 1px solid #181F3C;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.ai-chatbot-options-wrap th{
+    margin-bottom:70px;
+    font-size: 150%;
+}
+.ai-chatbot-options-wrap td{
+    padding-top:70px !important;
+
+}
+.ai-chatbot-options-wrap .description{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#webchat_embed_code{
+    width: 500px;
+}
+.settings_page_ai-chatbot-easy-integration .form-table{
+    margin-top:-70px;
+    margin-left: -10px;
+}
+.ai-chatbot-easy-integration-reply{
+font-weight:bold;
+background-color:#ccc;
+color: #94a3ad;
+cursor:pointer;
+}
+.ai-chatbot-options-wrap .boldtext{
+font-weight:bold;
+}
+.ai_chatbot_easy_integration_close_instructions{ 
+    margin-right: 5px; 
+    float:right;
+    border:0; 
+    color:#181F3C;
+    background:#fff;
+    padding: 0px;
+    text-decoration:none;
+    font-size: 30px;
+}
+.ai-chatbot-easy-integration-show-btn{ 
+    margin: 5px; 
+    border: 1px solid #000; 
+    border-radius:5px;
+    background:darkgreen; 
+    color: #fff;
+    padding: 5px;
+    text-decoration:none;
+    font-size: 90%;
+}
+.ai-chatbot-easy-integration-show-btn:hover, .ai-chatbot-easy-integration-show-btn:focus{ 
+    background: #fff; 
+
+}
+.ai-chatbot-keywordmatches{
+    padding: 3px;
+    background:rgb(236, 236, 148, 0.7);
+}
+
+.ai-chatbot-easy-integration-full-chatnotes p{
+    border:1px dotted #eee;
+    padding: 10px;
+    margin:5px;
+}
+.ai-chatbot-easy-integration-chatwindowmarketing{
+    display:none;
+    background-color:rgb(99, 10, 10);
+    color: #fff;
+    font-weight:bold;
+    padding: 20px;
+    font-size: 140%;
+    width: 400px;
+    margin-bottom: 10px; 
+}
+.ai-chatbot-easy-integration-instructions a{
+    text-decoration:none;
+    border-bottom: 1px dotted #270aaa;
+}
+button{cursor:pointer;}
+.ai-chatbot-options-wrap  .marketing_code{
+position:fixed; 
+right: 25px;
+top: 50px;
+width: 525px;
+padding: 20px;
+border: 1px dotted #ccc;
+background: #fff;
+margin-left: 20px;
+font-size: 90%;
+height: 700px;
+overflow-y:scroll;
+}
+.ai_chatbot_easy_integration_log_entry{
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background:#fff;
+    border: 1px solid #eee;
+border-radius: 10px;
+}
+.ai_chatbot_easy_integration-btn{
+    display: inline-block;
+    background:#181F3C;
+    color:#fff;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ai_chatbot_easy_integration-btn:hover,.ai_chatbot_easy_integration-btn:focus{
+    background: #fff;
+}
+.ai_chatbot_easy_integration-success{
+font-weight:bold; 
+padding: 10px;
+color:darkgreen;
+background:#eee;
+margin: 40px;
+}
+#ai_chatbot_easy_integration_log_status{
+    margin-bottom:10px;
+    font-weight:bold;
+    color:darkgreen;
+}
+
+/**
+* Open AI Chat Bot
+*/
+/* Button used to open the chat form - fixed at the bottom of the page */
+.ai_chatbot_easy_integration_open_button{
+    position: fixed;
+    bottom: 50px;
+    right: 15px;
+    font-size: 18pt;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    color:#fff;
+    background-color:#181f3c;
+    border: 1px solid #fff;
+}
+.ai_chatbot_easy_integration_logo{display:none;}
+.ai_chatbot_easy_integration_open_button:focus, .ai_chatbot_easy_integration_form_container .btn:focus, .ai_chatbot_easy_integration_cancel:focus{
+    outline: 2px solid #2271b1;
+}
+#ai_chatbot_easy_integration_chatdialog{
+    width: 325px;
+    max-width: 325px;
+}
+#ai_chatbot_easy_integration_chatdialog a{
+border-bottom: 1px dotted #181F3C;
+}
+#ai_chatbot_easy_integration_openai_action{
+    margin-bottom: 10px;
+}
+#ai_chatbot_easy_integration_player{
+    visibility:hidden;
+}
+.ai_chatbot_easy_integration_form_popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  z-index: 9;
+  min-height: 300px;
+  background-color: white;
+}
+
+/* Add styles to the form container */
+.ai_chatbot_easy_integration_form_container {
+  padding: 10px;
+ /*background-color: white;*/
+  padding-top: 20px;
+}
+
+/* Full-width textarea */
+.ai_chatbot_easy_integration_form_container #ai_chatbot_easy_integration_msg {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 10px 0;
+  border: 1px solid #eee;
+  resize: none;
+}
+
+/* Set a style for the submit/login button */
+.ai_chatbot_easy_integration_form_container .btn {
+  background-color: #181f3c;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 3px;
+  margin-bottom:10px;
+  width: 140px;
+  display:inline-block;
+  text-align: center;
+}
+.ai_chatbot_easy_integration_contact{
+  padding-top: 16px !important;  
+  padding-bottom: 15px !important;  
+}
+.ai-chatbot-easy-integration-pro-request-chat{
+    margin-left: 5px!important;
+}
+
+/* Add a red background color to the cancel button */
+.ai_chatbot_easy_integration_cancel {
+  position:absolute;
+  right: 10px;
+  border: 0px;
+  background:transparent;
+  font-size: 20pt;
+  padding: 5px;
+  color:#fff;
+}
+
+#ai_chatbot_easy_integration_chat_dialog_container{
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-top: -10px;
+    overflow-y:scroll;
+    height: 300px;
+}
+#ai_chatbot_easy_integration_chat_dialog_container p{
+    margin-bottom: 0px;
+    font-size: 10pt;
+}
+.ai_chatbot_easy_integration_icon{
+    width: 100%;
+    border: 1px solid #181F3C;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.ai_chatbot_easy_integration_form_popup h2{
+font-size: 28px;
+color:#fff;
+position: absolute;
+top: 30px;
+left: 100px;
+}
+@media (max-width: 500px) {
+#ai_chatbot_easy_integration_chatdialog{
+width: 100% !important;
+max-width: 100% !important;
+height: 100% !important;
+z-index:2000000000000 !important;
+right:0px !important;
+top: 0px;
+}
+.ai_chatbot_easy_integration_form_container{
+    max-width: 768px;
+}
+.ai_chatbot_easy_integration_form_popup h2{
+    left: 125px;
+}
+}
+@media (max-width: 368px) {
+
+    .ai_chatbot_easy_integration_form_popup h2{
+        left: 100px;
+    }
+    }
